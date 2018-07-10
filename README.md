@@ -1,1 +1,5 @@
-# modular_networks_order_parameters
+# synchrotools is a python package providing a collection of indices that characterize 
+ + synchronization 
+ + chimera states
+ + metastable states
+ 
