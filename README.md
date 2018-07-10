@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ==synchrotools==
 
 **synchrotools** is a python package providing a collection of indices that characterize 
