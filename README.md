@@ -15,26 +15,26 @@ Data are handled with numpy ndarrays and dictionaries
 \end{equation}
 
  - Local order parameter: 
-\[ \rho_i = \frac{1}{2\delta}\sum_{j=i-\delta}^{i+\delta} e^{\mathbf{i}\theta_j(t)} \]
+\begin{equation} \rho_i = \frac{1}{2\delta}\sum_{j=i-\delta}^{i+\delta} e^{\mathbf{i}\theta_j(t)} \end{equation}
 
 + Mean correlation
 
 + Mean phase velocity
 
-+ Metastability index $\lambda$:
++ Metastability index \(\lambda\):
 
-\[ \lambda = {\langle \sigma_{\textbf{met}} \rangle}_{C_m}\]
+\begin{equation} \lambda = {\langle \sigma_{\textbf{met}} \rangle}_{C_m}\end{equation}
 where
-\[ \sigma_{\textbf{met}}(m)=\frac{1}{T-1}\sum_{t=1}^T(\rho_m(t)-{\langle \rho_m \rangle}_T)^2\]
+\begin{equation} \sigma_{\textbf{met}}(m)=\frac{1}{T-1}\sum_{t=1}^T(\rho_m(t)-{\langle \rho_m \rangle}_T)^2\end{equation}
 
-+ Chimera-like index
-\[ \chi={\langle \sigma_{\textbf{chi}} \rangle}_T, \]
++ Chimera-like index \( \chi \)
+\begin{equation} \chi={\langle \sigma_{\textbf{chi}} \rangle}_T, \end{equation}
 where
-\[ \sigma_{\textbf{chi}}(t)=\frac{1}{M-1}\sum_{m=1}^M(\rho_m(t)-{\langle \rho(t) \rangle}_M)^2 \]
+\begin{equation} \sigma_{\textbf{chi}}(t)=\frac{1}{M-1}\sum_{m=1}^M(\rho_m(t)-{\langle \rho(t) \rangle}_M)^2 \end{equation}
 
 + Local curvature
  - Local curvature:
-\[ \hat{D}\theta_i(t) :=   \sum_{j=i-\delta}^{j=i+\delta} \!\left[\theta_j(t) - \theta_i(t)\right] \]
+\begin{equation} \hat{D}\theta_i(t) :=   \sum_{j=i-\delta}^{j=i+\delta} \!\leftegin{equation}\theta_j(t) - \theta_i(t)\rightnd{equation} \end{equation}
  
  - Spatial coherence:
 
