@@ -20,8 +20,12 @@ Data are handled with numpy ndarrays and dictionaries
 + Mean correlation
 
 + Mean phase velocity
+\begin{equation}
+\Omega_i = \frac{2 \pi K_i}{\Delta T}\,,
+\end{equation}
+where \(K_i\) is the number of periods of the $i$-th oscillator during a time interval \(\Delta T\).  
 
-+ Metastability index \(\lambda\):
++ Metastabilite index \(\lambda\):
 
 \begin{equation} \lambda = {\langle \sigma_{\textbf{met}} \rangle}_{C_m}\end{equation}
 where
@@ -34,7 +38,7 @@ where
 
 + Local curvature
  - Local curvature:
-\begin{equation} \hat{D}\theta_i(t) :=   \sum_{j=i-\delta}^{j=i+\delta} \!\leftegin{equation}\theta_j(t) - \theta_i(t)\rightnd{equation} \end{equation}
+\begin{equation} \hat{D}\theta_i(t) := \sum_{j=i-\delta}^{j=i+\delta} \!\left[\theta_j(t) - \theta_i(t)\right]\, \end{equation}
  
  - Spatial coherence:
 
