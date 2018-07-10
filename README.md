@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ==synchrotools==
 
 **synchrotools** is a python package providing a collection of indices that characterize 
@@ -11,7 +10,9 @@ Data are handled with numpy ndarrays and dictionaries
 
 + Kuramoto order Parameter
  - Global order parameter: 
-\begin{equation} \rho = \frac{1}{N}\sum_{j=1}^N e^{\mathbf{i}\theta_j(t)} \end{equation}
+\begin{equation}
+\rho = \frac{1}{N}\sum_{j=1}^N e^{\mathbf{i}\theta_j(t)} 
+\end{equation}
 
  - Local order parameter: 
 \[ \rho_i = \frac{1}{2\delta}\sum_{j=i-\delta}^{i+\delta} e^{\mathbf{i}\theta_j(t)} \]
