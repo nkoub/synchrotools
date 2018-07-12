@@ -7,7 +7,7 @@
 
 
 import numpy as np
-from order_parameter import global_order_parameter_spacetime as gops
+from synchrotools import global_order_parameter_spacetime as gops
 
 
 def chimera_index(spacetime, membership):

@@ -7,7 +7,7 @@
 
 
 import numpy as np
-from order_parameter import global_order_parameter_spacetime as gopst
+from synchrotools import global_order_parameter_spacetime as gopst
 
 
 def metastability_index(spacetime, membership):
