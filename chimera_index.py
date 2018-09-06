@@ -56,8 +56,9 @@ def chimera_index(spacetime, membership):
     # values: the chimera-like index
     sigma_chimera = {}
     for t in range(len(order_parameter[0])):
+        tmp = 0.0
         for m in community_index:
-            tmp = (order_parameter[m][t] - mean_order_parameter[t])**2
+            tmp += (order_parameter[m][t] - mean_order_parameter[t])**2
         sigma_chimera[t] = tmp / len(community_index)
 
     # The chimera index is the mean of the sigma_chimera over all communities

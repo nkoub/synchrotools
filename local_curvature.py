@@ -39,7 +39,7 @@ def local_curvature_space(space, order):
             # check the boundaries
             if (j<0):
                 j_delta = j + N
-            elif (j>(N-1) ):
+            elif (j>(N-1)):
                 j_delta = j - N
             else:
                 j_delta = j  
